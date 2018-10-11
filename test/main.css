@@ -1,0 +1,19 @@
+nav{
+	display: flex;
+	background-color: black;
+	justify-content: space-around;
+}
+
+.nava{
+	padding: 10px;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+.nava:hover{
+	background-color: maroon;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
