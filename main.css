@@ -3,6 +3,7 @@
 }
 body{
 	margin: 0;
+	scroll-behavior: smooth;
 }
 
 header{
@@ -33,9 +34,9 @@ nav{
 
 nav > a{
 	padding: 10px 30px;
-	height: var(--nav-height);
+	height: 30px;
 	font-weight: bold;
-	font-size: calc(var(--nav-height)/2);
+	font-size: 25px;
 	color: white;
 }
 
