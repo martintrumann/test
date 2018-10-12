@@ -8,6 +8,11 @@ header{
 	margin: 10px;
 }
 
+header > * {
+	margin: 10px;
+}
+
+
 nav{
 	top: 0;
 	overflow: auto;
@@ -18,18 +23,6 @@ nav{
 	justify-content: space-around;
 }
 
-a{
-	text-decoration: none;
-}
-
-img{
-	display: block;
-	max-width: 100%;
-}
-
-header > * {
-	margin: 10px;
-}
 nav > a{
 	padding: 10px 30px;
 	font-weight: bold;
@@ -39,6 +32,15 @@ nav > a{
 
 nav > a:hover{
 	background-color: rgb(194, 75, 6);
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	display: block;
+	max-width: 100%;
 }
 
 .main{
