@@ -1,10 +1,13 @@
 body{
 	margin: 0;
 }
+
 header{
 	font-size: 1.5em;
 	text-align: center;
+	margin: 10px;
 }
+
 nav{
 	top: 0;
 	overflow: auto;
@@ -17,21 +20,27 @@ nav{
 
 a{
 	text-decoration: none;
-	color: black;
 }
+
 img{
 	display: block;
 	max-width: 100%;
 }
-.nava{
+
+header > * {
+	margin: 10px;
+}
+nav > a{
 	padding: 10px 30px;
 	font-weight: bold;
 	font-size: 2.5em;
 	color: white;
 }
+
 .nava:hover{
 	background-color: rgb(194, 75, 6);
 }
+
 .main{
 	padding: 10px;
 }
