@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	scroll-behavior: smooth;
+	--nav-height: 50px;
 }
 
 header{
@@ -9,19 +10,10 @@ header{
 	margin: 10px;
 }
 
-header > * {
-	margin: 10px;
-}
-
-h1{
-	margin-top: calc(var(--nav-height) * -1);
-	padding-top: var(--nav-height);
-}
 nav{
 	top: 0;
 	overflow: auto;
 	width: 100%;
-	--nav-height: 50px;
 	height: var(--nav-height);
 	position: sticky;
 	display: flex;
@@ -30,7 +22,7 @@ nav{
 	justify-content: space-around;
 }
 
-nav > a{
+nav a{
 	padding: 10px 30px;
 	height: calc(var(--nav-height)-20px);
 	font-weight: bold;
@@ -38,7 +30,7 @@ nav > a{
 	color: white;
 }
 
-nav > a:hover{
+nav a:hover{
 	background-color: rgb(194, 75, 6);
 }
 
@@ -49,6 +41,11 @@ a{
 img{
 	display: block;
 	max-width: 100%;
+}
+
+div.main h1{
+	margin-top: calc(var(--nav-height) * -1);
+	padding-top: var(--nav-height);
 }
 
 div.main{
